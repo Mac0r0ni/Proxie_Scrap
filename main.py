@@ -1,5 +1,5 @@
 from selenium import webdriver
-
+open('proxy.txt', 'w').close()
 options = webdriver.ChromeOptions()
 options.add_argument('headless')
 driver = webdriver.Chrome(chrome_options=options)
